@@ -185,3 +185,77 @@ button.button-danger {
     color: #9D174D;
     background: #FCE7F3;
 }
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 12px;
+
+    padding: 16px;
+
+    width: 896px;
+
+    border: none;
+    border-radius: 6px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.banner h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.banner img {
+    width: 20px;
+    height: 20px;
+
+    margin: 0;
+}
+
+.banner-success {
+    color: #047857;
+    background-color: #ECFDF5;
+}
+
+.banner-success h3 {
+    color: #065F46;
+}
+
+.banner-warning {
+    color: #B45309;
+    background-color: #FFFBEB;
+}
+
+.banner-warning h3 {
+    color: #92400E;
+}
+
+.banner-error {
+    color: #B45309;
+    background-color: #FEF2F2;
+}
+
+.banner-error h3 {
+    color: #92400E;
+}
+
+.banner-neutral {
+    color: #1C51B9;
+    background-color: #EFF6FF;
+}
+
+.banner-neutral h3 {
+    color: #1E40AF;
+}
