@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <h1>Hello mothasuckas</h1>
-      <Badge variant="square" color="indigo"></Badge>
+      <Badge variant="square" color="INDIGO"></Badge>
       <br></br>
       <Badge variant="pill" color="red"></Badge>
     </>
