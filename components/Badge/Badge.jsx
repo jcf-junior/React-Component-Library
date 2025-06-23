@@ -8,7 +8,6 @@ export default function Badge({children = "Badge", variant = "square", color = "
 
     function checkColor() {
         const validColors=["gray", "red", "yellow", "green", "blue", "indigo", "purple", "pink"]
-
         return validColors.includes(color.toLocaleLowerCase()) ? color.toLowerCase() : color = "gray"
     }
 
